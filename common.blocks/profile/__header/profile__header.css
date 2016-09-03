@@ -1,0 +1,7 @@
+.profile__header {
+    text-align: right;
+}
+
+.profile__header .button_edit {
+    margin: 10px;
+}

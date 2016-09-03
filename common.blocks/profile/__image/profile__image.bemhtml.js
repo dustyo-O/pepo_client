@@ -1,8 +1,9 @@
-block('profile').elem('stats')(
+block('profile').elem('image')(
+    js()(true),
     content()(
         function () {
             return {
-                elem: 'info'
+                block: 'image'
             };
         }
     )

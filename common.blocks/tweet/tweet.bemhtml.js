@@ -90,7 +90,7 @@ block('tweet').mod('default', true)(
                     target: extras.attachment.url,
                     url: extras.attachment.image,
                     title: extras.attachment.title
-                })
+                });
             }
 
             tweet_content[tweet_content.length] = {

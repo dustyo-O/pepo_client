@@ -32,8 +32,9 @@ block('tweet-attachment')(
                         title : ctx.target + ctx.title
                     }
                 } 
-            ]
-        } else {
+            ];
+        }
+        if (!ctx.target && !ctx.url) {
             return [
                 {
                     block: 'progress',
@@ -50,7 +51,7 @@ block('tweet-attachment')(
                         
                     ]
                 }
-            ]
+            ];
         }
 
     })

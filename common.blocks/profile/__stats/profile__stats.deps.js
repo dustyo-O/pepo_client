@@ -1,7 +1,5 @@
 ({
     shouldDeps: [
-        {
-            block: 'mini-stat'
-        }
+        { block: 'text', mods: ['follow-count'] }
     ]
 })
